@@ -93,8 +93,6 @@ public class PlayerHealth : MonoBehaviour
 
         //menyalakan suara ketika mati
         playerAudio.clip = deathClip;
-        playerAudio.Play();
-
-        
+        playerAudio.Play();        
     }
 }
